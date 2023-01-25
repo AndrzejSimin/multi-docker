@@ -7,7 +7,7 @@ services:
 
 
 before_install:
-  - docker build -t andrzejsimin/react-test -f Dockerfile.dev ./client
+  - docker build -t andrzejsimin/react-test -f ./client/Dockerfile.dev ./client
 
 
 script:
